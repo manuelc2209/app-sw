@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  background-color: #282c34;
+  min-height: 100vh;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.app-input {
+  display: block;
+  width: 200px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  transition: 0.3s border-color;
+}
+
+.app-input:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.app-input:focus {
+  background-color: #ffffff;
+  border-color: #000;
+  outline: none !important;
+}
+
+.btn-submit {
+  padding: 4px 10px;
+  height: 38px;
+}
+
+.btn-submit:disabled {
+  color: rgb(63, 63, 63);
+  background-color: rgb(141, 141, 141);
+}
